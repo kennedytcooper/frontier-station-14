@@ -1424,7 +1424,7 @@ entities:
     - pos: -2.5,7.5
       parent: 1
       type: Transform
-- proto: FaxMachineBase
+- proto: FaxMachineShip
   entities:
   - uid: 186
     components:
@@ -1747,18 +1747,22 @@ entities:
       type: Transform
     - enabled: False
       type: AmbientSound
-- proto: GeneratorUranium
+- proto: GeneratorPlasma
   entities:
   - uid: 237
     components:
     - pos: 0.5,12.5
       parent: 1
       type: Transform
+    - remainingFuel: 20
+      type: FuelGenerator
   - uid: 238
     components:
     - pos: 0.5,10.5
       parent: 1
       type: Transform
+    - remainingFuel: 20
+      type: FuelGenerator
 - proto: GravityGeneratorMini
   entities:
   - uid: 239
@@ -2771,13 +2775,6 @@ entities:
     - pos: -0.5,7.5
       parent: 1
       type: Transform
-- proto: SpawnPointMedicalCyborg
-  entities:
-  - uid: 401
-    components:
-    - pos: 7.5,6.5
-      parent: 1
-      type: Transform
 - proto: SpawnPointMedicalDoctor
   entities:
   - uid: 402
@@ -3295,7 +3292,7 @@ entities:
     - pos: 9.5,8.5
       parent: 1
       type: Transform
-- proto: WarpPoint
+- proto: WarpPointShip
   entities:
   - uid: 494
     components:

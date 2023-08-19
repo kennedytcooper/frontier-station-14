@@ -1374,7 +1374,7 @@ entities:
     - pos: -6.5,1.5
       parent: 1
       type: Transform
-- proto: FaxMachineBase
+- proto: FaxMachineShip
   entities:
   - uid: 153
     components:
@@ -1812,7 +1812,7 @@ entities:
     - pos: -1.3298461,3.5920248
       parent: 1
       type: Transform
-- proto: hydroponicsTray
+- proto: hydroponicsTrayAnchored
   entities:
   - uid: 226
     components:
@@ -2828,7 +2828,7 @@ entities:
       pos: -3.5,4.5
       parent: 1
       type: Transform
-- proto: WarpPoint
+- proto: WarpPointShip
   entities:
   - uid: 363
     components:
